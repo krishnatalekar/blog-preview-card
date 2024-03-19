@@ -1,0 +1,167 @@
+/* General settings */
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: Figtree;
+}
+
+/* Main style */
+.background-container {
+    background-color: hsl(47, 88%, 63%);
+    height: 96rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 38.4rem;
+    height: 52.2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    box-shadow: 6px 6px;
+    display: grid;
+    margin: 0 auto;
+}
+
+.main-container:hover {
+    box-shadow: 10px 10px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img img {
+    width: 33.6rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.main-content {
+    width: 33.6rem;
+    height: 19.4rem;
+    margin: 0 auto;
+}
+
+.learning {
+    width: 8.2rem;
+    height: 2.9rem;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.publish p {
+    font-size: 1.4rem;
+    font-weight: medium;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+
+    
+}
+
+.description {
+    color: hsl(0, 0%, 50%);
+}
+
+.description p {
+    font-size: 1.6rem;
+}
+
+.author {
+    width: 12.9rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author img {
+    width: 3.2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+@media (max-width: 28em) {
+    .main-container {
+        width: 35rem;
+    }
+    .main-img img {
+        width: 30rem;
+        height: 18rem;
+    }
+    .main-content {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 26.25em) {
+    .main-container {
+        width: 30rem;
+    }
+    .main-img {
+        height: 21.1rem;
+    }
+    .main-img img {
+        width: 25rem;
+        height: 15rem;
+    }
+    .main-content {
+        width: 25rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 23.44em) {
+    .main-container {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 21.25em) {
+    .main-container {
+        width: 26rem;
+    }
+    .main-img {
+        height: 19rem;
+    }
+    .main-img img {
+        width: 22rem;
+        height: 13rem;
+    }
+    .main-content {
+        width: 22rem;
+        height: 33rem;
+    }
+}
+
+/* Footer Attribution */
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
